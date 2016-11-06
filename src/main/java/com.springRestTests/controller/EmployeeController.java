@@ -13,7 +13,7 @@ public class EmployeeController {
     }
 
     @RequestMapping("/employee")
-    public String getEmployerById(@RequestParam(value = "id",defaultValue = "1") String id) {
+    public String getEmployerById(@RequestParam("id",defaultValue = "1") String id) {
         return new DBController().getEmployeeById(id);
     }
 
