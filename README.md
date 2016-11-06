@@ -5,7 +5,7 @@ Test SpringBoot + Hibernate + jQuery + Bootstrap
 
 In this project i worked with SpringBoot and Hibernate.
 
-Also i had MySQL table Employee with rows: 
+Also i had MySQL table Employee with columns:
 ID , Name, Position
 
 Java code reterned data in JSON format and i read JSON data using jQuery.
