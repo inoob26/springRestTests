@@ -26,11 +26,6 @@ function getAllEmployee(){
             //select only clicked class
             $(this).addClass("active");
             id0 = $(this).children().first().text();
-            //add button events
-
-            $("#e_edit").on("click",function(){
-                getEmployeeById();
-            });
         });
     });
 
